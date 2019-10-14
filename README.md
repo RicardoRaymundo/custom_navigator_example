@@ -45,7 +45,7 @@ Este repósitório conta com a classe estática **CustomNavigator**, que é como
 Como pode-se observar no exemplo abaixo, o uso da **CustomNavigator** é simples, só devem ser passados como parâmetros o contexto, a página para onde vamos navegar e a animação.
 
 #### lib/page_a.dart
-
+```
 ...
 FlatButton(
               color: Colors.white,
@@ -59,11 +59,11 @@ FlatButton(
               child: Text('Navegar para a página B'),
             ),
 ...
-
+```
 
 - Comparando este método com a forma padrão do Flutter, é evidente o trabalho e volume de código poupados
 
-
+```
 FlatButton(
               color: Colors.white,
               onPressed: () {
@@ -85,7 +85,7 @@ PageRouteBuilder(
       return child;
     },
   );
-
+```
 
 #### Custom Navigation Transition
 Este sistema de navegação conta com a classe **CustomNavigatorTransition**, que contém as animacções customizadas que serão utilizadas pela **CustomNavigator**:
@@ -120,7 +120,7 @@ static Widget rotationTransition(Animation<double> animation, Animation<double> 
       ),
     );
 
-  };
+  }
 ```
 
 ## Contribuir
