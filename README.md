@@ -92,12 +92,12 @@ Este sistema de navegação conta com a classe **CustomNavigatorTransition**, qu
 
 |       ANIMAÇÃO       |                                     DESCRIÇÃO                                     |
 |:--------------------:|:---------------------------------------------------------------------------------:|
-| slideTransitionLeft  | Transição de página com animação de 'slide' horizontal da direita para a esquerda |
-| slideTransitionRight | Transição de página com animação de 'slide' horizontal da esquerda para a direita |
-| slideTransitionUp    | Transição de página com animação de 'slide' vertical de baixo para cima           |
-| slideTransitionDown  | Transição de página com animação de 'slide' vertical de cima para baixo           |
-| scaleTransition      | Transição de página com animação de 'scale' de dentro para fora                   |
-| rotationTransition   | Transição de página com animação de 'rotation' com 'scale' de dentro para fora    |
+| **slideTransitionLeft**  | Transição de página com animação de 'slide' horizontal da direita para a esquerda |
+| **slideTransitionRight** | Transição de página com animação de 'slide' horizontal da esquerda para a direita |
+| **slideTransitionUp**    | Transição de página com animação de 'slide' vertical de baixo para cima           |
+| **slideTransitionDown**  | Transição de página com animação de 'slide' vertical de cima para baixo           |
+| **scaleTransition**      | Transição de página com animação de 'scale' de dentro para fora                   |
+| **rotationTransition**   | Transição de página com animação de 'rotation' com 'scale' de dentro para fora    |
 
 #### Criando uma animação de transição de página:
 Para criar uma nova animação de transicão é seguido o seguinte padrão:
