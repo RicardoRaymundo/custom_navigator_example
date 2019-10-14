@@ -102,8 +102,8 @@ Este sistema de navegação conta com a classe **CustomNavigatorTransition**, qu
 #### Criando uma animação de transição de página:
 Para criar uma nova animação de transicão é seguido o seguinte padrão:
 
-```dart
-static Widget rotationTransition=(Animation<double> animation, Animation<double> secondaryAnimation, Widget child) {
+```
+static Widget rotationTransition(Animation<double> animation, Animation<double> secondaryAnimation, Widget child) {
     return RotationTransition(
       turns: Tween<double>(
         begin: 0.0,
