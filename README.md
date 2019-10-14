@@ -64,27 +64,25 @@ FlatButton(
 - Comparando este método com a forma padrão do Flutter, é evidente o trabalho e volume de código poupados
 
 ```
+...
 FlatButton(
               color: Colors.white,
               onPressed: () {
-                Navigator.of(context).push(
-                PageRouteBuilder(
-                    pageBuilder: (context, animation, secondaryAnimation) => PageB(),
-                    transitionsBuilder: (context, animation, secondaryAnimation, child) {
-                      return child;
-                    },
-                  ),
-                );
+                Navigator.of(context).push(_createRoute());
               },
               child: Text('Navegar para a página B'),
             ),
+...
 
-PageRouteBuilder(
+Route _createRoute() {
+  return PageRouteBuilder(
     pageBuilder: (context, animation, secondaryAnimation) => Page2(),
     transitionsBuilder: (context, animation, secondaryAnimation, child) {
       return child;
     },
   );
+}
+
 ```
 
 #### Custom Navigation Transition
