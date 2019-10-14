@@ -31,7 +31,7 @@ $ git clone https://github.com/RicardoRaymundo/custom_navigator_example.git
 - [Livro de 'receitas' para Flutter](https://flutter.dev/docs/cookbook)
 
 ### Widgets of the Week
-[Veja a série 'Flutter Widgets of the Week'](https://www.youtube.com/watch?v=b_sQ9bMltGU&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)
+- [Veja a série 'Flutter Widgets of the Week'](https://www.youtube.com/watch?v=b_sQ9bMltGU&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)
 
 ### Outros tutoriais de animação de pagina
  - [Animate a page route transition]()
